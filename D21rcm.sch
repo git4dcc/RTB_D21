@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "RTB D21 Next18 Decoder"
+Date "2024-11-15"
+Rev "0"
+Comp "Frank Schumacher"
+Comment1 "Lok Decoder Next18"
+Comment2 "D21.0"
+Comment3 ""
+Comment4 "Licensed under the Apache License, Version 2"
+$EndDescr
+Text Notes 650  800  0    118  ~ 0
+RcmTX
+$Comp
+L Device:R R7
+U 1 1 5FD5C082
+P 6800 1700
+F 0 "R7" V 6700 1700 50  0000 C CNN
+F 1 "220k" V 6800 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 1700 50  0001 C CNN
+F 3 "~" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5FD5CB88
+P 7250 1700
+F 0 "R9" V 7150 1700 50  0000 C CNN
+F 1 "9.1k" V 7250 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 1700 50  0001 C CNN
+F 3 "~" H 7250 1700 50  0001 C CNN
+	1    7250 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1700 7000 1700
+Text GLabel 6650 1700 0    50   Input ~ 0
+DCC-a
+$Comp
+L power:GND #PWR?
+U 1 1 5FD5E2AC
+P 7400 1700
+AR Path="/5B6C6B9D/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD5E2AC" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 7400 1450 50  0001 C CNN
+F 1 "GND" H 7405 1527 50  0000 C CNN
+F 2 "" H 7400 1700 50  0001 C CNN
+F 3 "" H 7400 1700 50  0001 C CNN
+	1    7400 1700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6650 1500 0    50   Output ~ 0
+UDCC-a
+Wire Wire Line
+	6650 1500 7000 1500
+Wire Wire Line
+	7000 1500 7000 1700
+Connection ~ 7000 1700
+Wire Wire Line
+	7000 1700 7100 1700
+$Comp
+L Device:R R8
+U 1 1 5FD60754
+P 6800 2300
+F 0 "R8" V 6700 2300 50  0000 C CNN
+F 1 "220k" V 6800 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 2300 50  0001 C CNN
+F 3 "~" H 6800 2300 50  0001 C CNN
+	1    6800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5FD6075E
+P 7250 2300
+F 0 "R10" V 7150 2300 50  0000 C CNN
+F 1 "9.1k" V 7250 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 2300 50  0001 C CNN
+F 3 "~" H 7250 2300 50  0001 C CNN
+	1    7250 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2300 7000 2300
+Text GLabel 6650 2300 0    50   Input ~ 0
+DCC-b
+$Comp
+L power:GND #PWR?
+U 1 1 5FD6076A
+P 7400 2300
+AR Path="/5B6C6B9D/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD6076A" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 7400 2050 50  0001 C CNN
+F 1 "GND" H 7405 2127 50  0000 C CNN
+F 2 "" H 7400 2300 50  0001 C CNN
+F 3 "" H 7400 2300 50  0001 C CNN
+	1    7400 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6650 2100 0    50   Output ~ 0
+UDCC-b
+Wire Wire Line
+	6650 2100 7000 2100
+Wire Wire Line
+	7000 2100 7000 2300
+Connection ~ 7000 2300
+Wire Wire Line
+	7000 2300 7100 2300
+Text GLabel 1900 2800 0    50   Input ~ 0
+DCC-b
+$Comp
+L Device:R R4
+U 1 1 60C01040
+P 2800 1700
+F 0 "R4" V 2700 1700 50  0000 C CNN
+F 1 "22" V 2800 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2730 1700 50  0001 C CNN
+F 3 "~" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC857BDW1 Q2
+U 1 1 60B9A488
+P 3200 1950
+F 0 "Q2" H 3390 1904 50  0000 L CNN
+F 1 "BC857BDW1" H 3390 1995 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 3400 2050 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 3200 1950 50  0001 C CNN
+	1    3200 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC857BDW1 Q2
+U 2 1 60B9DC7D
+P 2900 2350
+F 0 "Q2" H 3091 2304 50  0000 L CNN
+F 1 "BC857BDW1" H 3091 2395 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 3100 2450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 2900 2350 50  0001 C CNN
+	2    2900 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2150 2800 1950
+Wire Wire Line
+	2800 1950 3000 1950
+Wire Wire Line
+	3100 2350 3300 2350
+Wire Wire Line
+	3300 2350 3300 2150
+Wire Wire Line
+	3300 1750 3300 1300
+Wire Wire Line
+	2800 1300 2800 1550
+Wire Wire Line
+	2800 1850 2800 1950
+Connection ~ 2800 1950
+Connection ~ 3300 2350
+$Comp
+L Transistor_BJT:BC847BDW1 Q1
+U 1 1 60E839E2
+P 2600 3000
+F 0 "Q1" H 2791 3046 50  0000 L CNN
+F 1 "BC847BDW1" H 2791 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 2800 3100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1300 2800 1300
+Connection ~ 3300 1300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60D9BD7E
+P 3300 1300
+AR Path="/5B6C6B9D/60D9BD7E" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/60D9BD7E" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3300 1150 50  0001 C CNN
+F 1 "+3V3" H 3315 1473 50  0000 C CNN
+F 2 "" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2350 3550 2350
+Wire Wire Line
+	3850 2350 4150 2350
+Text GLabel 4150 2350 2    50   Input ~ 0
+RCM.tx
+$Comp
+L Device:R R6
+U 1 1 60BA304E
+P 3700 2350
+F 0 "R6" V 3800 2350 50  0000 C CNN
+F 1 "10k" V 3700 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3200 2500 3350
+Wire Wire Line
+	2500 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 3000
+Wire Wire Line
+	2500 2800 1900 2800
+Wire Wire Line
+	2800 2550 2800 3000
+Connection ~ 2800 3000
+$Comp
+L Device:R R5
+U 1 1 60E99D1D
+P 3100 3000
+F 0 "R5" V 3200 3000 50  0000 C CNN
+F 1 "10k" V 3100 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3030 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    3100 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 3000 2950 3000
+$Comp
+L Transistor_BJT:BC847BDW1 Q1
+U 2 1 60E9A4D6
+P 2600 3750
+F 0 "Q1" H 2791 3796 50  0000 L CNN
+F 1 "BC847BDW1" H 2791 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 2800 3850 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 2600 3750 50  0001 C CNN
+	2    2600 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3550 2500 3550
+Text GLabel 1900 3550 0    50   Input ~ 0
+DCC-a
+Wire Wire Line
+	2800 3750 3350 3750
+Wire Wire Line
+	3350 3750 3350 3000
+Wire Wire Line
+	3350 3000 3250 3000
+$Comp
+L power:GND #PWR?
+U 1 1 60E9ED99
+P 2500 3950
+AR Path="/5B6C6B9D/60E9ED99" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/60E9ED99" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/60E9ED99" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 2500 3700 50  0001 C CNN
+F 1 "GND" H 2505 3777 50  0000 C CNN
+F 2 "" H 2500 3950 50  0001 C CNN
+F 3 "" H 2500 3950 50  0001 C CNN
+	1    2500 3950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1100 950  5050 950 
+Wire Notes Line
+	5050 950  5050 4250
+Wire Notes Line
+	5050 4250 1100 4250
+Wire Notes Line
+	1100 4250 1100 950 
+Wire Notes Line
+	5550 950  9500 950 
+Wire Notes Line
+	9500 950  9500 2800
+Wire Notes Line
+	9500 2800 5550 2800
+Wire Notes Line
+	5550 2800 5550 950 
+Text Notes 5650 1100 0    50   ~ 10
+Track Voltage Sensors
+Text Notes 1200 1100 0    50   ~ 10
+Railcom TX
+$EndSCHEMATC
