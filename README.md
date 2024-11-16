@@ -51,7 +51,7 @@ The decoder has the following features,
 
 
 # Hardware
-The current PCB layout uses SMD footprints with 0.5mm pitch, 0402 and 0201 parts. Reflow soldering is mandatory.
+The current PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Reflow soldering is recommended.
 
 <img src="supplemental/images/D21_top.JPG" width=400>   <img src="supplemental/images/D21_btm.JPG" width=400>
 
