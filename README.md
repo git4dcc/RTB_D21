@@ -25,7 +25,7 @@ The D21 decoder is a double sided mobile decoder with Next18 connector. The deco
 <br>
 
 The decoder has the following features,
-- NEM651 connector
+- Next18 connector
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
