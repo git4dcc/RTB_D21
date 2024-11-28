@@ -8,8 +8,9 @@ The [D21](https://rtb4dcc.de/hardware/decoder/d21/) decoder is a double sided mo
 <details>
 <summary>See also</summary>
 
-- [RTB_D16](https://github.com/git4dcc/RTB_D16)
-- [RTB_D20](https://github.com/git4dcc/RTB_D20)
+- [RTB_D16 - NEM651](https://github.com/git4dcc/RTB_D16)
+- [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
+- [RTB_D22 - Plux16](https://github.com/git4dcc/RTB_D22)
 
 </details>
 
@@ -24,7 +25,7 @@ The [D21](https://rtb4dcc.de/hardware/decoder/d21/) decoder is a double sided mo
 <img src="supplemental/images/D21_main.JPG" width=800>
 <br>
 
-The decoder has the following features,
+## Decoder features
 - **Next18** (NEM-662) connector
 - **DCC**
   - DCC-A automatic logon
