@@ -9,9 +9,9 @@ The [D21](https://rtb4dcc.de/hardware/decoder/d21/) decoder is a double sided mo
 <summary>See also</summary>
 
 - [RTB_D12 - custom](https://github.com/git4dcc/RTB_D12) (Flm V100)
-- [RTB_D16 - NEM651](https://github.com/git4dcc/RTB_D16) (NEM651 single sided)
-- [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20) (NEM651 double sided)
-- [RTB_D22 - Plux16](https://github.com/git4dcc/RTB_D22) (Plux16)
+- [RTB_D16 - NEM651](https://github.com/git4dcc/RTB_D16)
+- [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
+- [RTB_D22 - Plux16](https://github.com/git4dcc/RTB_D22)
 
 </details>
 
