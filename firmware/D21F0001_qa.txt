@@ -1,0 +1,29 @@
+P:\>rtbclient --testdcd
+
+14:40:52.563          : Info    - UID                            : 000dd210-03ea2dbc
+14:40:52.563          : Info    - Vendor                         : DIY
+14:40:52.563          : Info    - Model                          : RTB Next18
+14:40:52.564          : Info    - Firmware                       : b_rev = 0001, m_rev = 0001
+14:40:52.564          : Test 1  - DCC polarity toggling          : ( 78:  0,  0.0%) ok
+14:41:05.588          : Test 2  - Preamble [12...24]             : (111:  0,  0.0%) ok
+14:41:22.811          : Test 3  - Minimal track voltage (8V)     : ( 79:  0,  0.0%) ok
+14:41:35.847          : Test 4  - Extra byte (before XOR)        : ( 78:  0,  0.0%) ok
+14:41:48.882          : Test 5  - Extra byte (after XOR)         : ( 79:  0,  0.0%) ok
+14:42:01.937          : Test 6  - Invalid XOR                    : ( 79:  0,  0.0%) ok
+14:42:14.980          : Test 7  - Min bit-0 timing (92us)        : ( 79:  0,  0.0%) ok
+14:42:28.061          : Test 8  - Max bit-0 timing (116us)       : ( 78:  0,  0.0%) ok
+14:42:41.090          : Test 9  - Min bit-1 timing (54us)        : ( 78:  0,  0.0%) ok
+14:42:54.111          : Test 10 - Max bit-1 timing (62us)        : ( 78:  0,  0.0%) ok
+14:43:07.145          : Test 11 - Max cutout [26-488us]          : ( 78:  0,  0.0%) ok
+14:43:20.189          : Test 12 - Min cutout [32-454us]          : ( 78:  0,  0.0%) ok
+14:43:33.286          : Test 13 - Asym Bit-0 timing (112|88us)   : ( 78:  0,  0.0%) ok
+14:43:46.331          : Test 14 - Asym Bit-1 timing (50|66us)    : ( 78:  0,  0.0%) ok
+14:43:59.370          : Test 15 - Below min bit-0 timing (88us)  : ( 79:  0,  0.0%) ok
+14:44:12.510          : Test 16 - Below min bit-1 timing (50us)  : ( 79:  0,  0.0%) ok
+14:44:25.547          : Test 17 - Above max bit-1 timing (66us)  : ( 79:  0,  0.0%) ok
+14:44:38.634          : Test 18 - Checking SDF(1xF)              : ( 79:  0,  0.0%) ok
+14:44:51.678          : Test 19 - Checking SDF(2xF)              : ( 79:  0,  0.0%) ok
+14:45:04.726          : Test 20 - Checking SDF(3xF)              : ( 78:  0,  0.0%) ok
+14:45:17.758          : Test 21 - Checking SDF(4xF)              : ( 78:  0,  0.0%) ok
+
+finished
