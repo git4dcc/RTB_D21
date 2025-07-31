@@ -91,6 +91,21 @@ Example: **D21F0001**.hex
 
 [Firmware files](firmware)
 
+## UPDI
+The fuse settings as well as the P-code (D21Pxxxx.hex) has to be installed by using UPDI.<br>
+Connecting the decoder via its track pins to a 5V(DC) power supply will boot its CPU. This way, its easy to program the fuses and flash.
+
+<img src=supplemental/images/D21_updi.jpg width=800>
+
+<details>
+<summary>Details</summary>
+
+| Fuse Setting | P-code Install |
+| --- | --- |
+|<img src=supplemental/images/D21_updi_fuses.jpg width=500>|<img src=supplemental/images/D21_updi_memory.jpg width=500>|
+
+</details>
+
 # Images
 | top | bottom |
 | --- | --- |
