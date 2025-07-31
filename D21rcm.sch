@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "RTB D21 Next18 Decoder"
-Date "2024-11-15"
+Date "2025-04-20"
 Rev "0"
 Comp "Frank Schumacher"
 Comment1 "Lok Decoder Next18"
