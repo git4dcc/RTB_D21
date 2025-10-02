@@ -1,58 +1,59 @@
 P:\>rtbclient --testdcd
-08:51:50 : Test  1 - Cold boot time (off=10s)                 - electric - RCN-530 : reference
-08:51:52 : Test  2 - Warm boot time (off=250ms)               - electric - RCN-530 : reference
-08:51:53 : Test  3 - Hot boot time (off=75ms)                 - electric - RCN-530 : reference
-08:52:03 : Test  4 - Track voltage (15V down to 8V)           - electric - RCN-210 : compliant
-08:52:13 : Test  5 - H-Bridge dead time (0..2500ns)           - electric - RCN-210 : compliant
-08:52:23 : Test  6 - Multiprotocol                            - electric - RCN-210 : compliant
-08:52:33 : Test  7 - DCC polarity toggling (33%)              - capture  - RCN-210 : compliant
-08:52:43 : Test  8 - Min bit-0 timing (92us)                  - capture  - RCN-210 : compliant
-08:52:53 : Test  9 - Max bit-0 timing (116us)                 - capture  - RCN-210 : compliant
-08:53:02 : Test 10 - Below min bit-0 timing (88us)            - capture  - RCN-210 : compliant
-08:53:12 : Test 11 - Asym bit-0 timing (112|88us)             - capture  - RCN-210 : compliant
-08:53:22 : Test 12 - Min bit-1 timing (54us)                  - capture  - RCN-210 : compliant
-08:53:32 : Test 13 - Max bit-1 timing (62us)                  - capture  - RCN-210 : compliant
-08:53:42 : Test 14 - Below min bit-1 timing (50us)            - capture  - RCN-210 : compliant
-08:53:51 : Test 15 - Above max bit-1 timing (66us)            - capture  - RCN-210 : compliant
-08:54:01 : Test 16 - Asym bit-1 timing (50|66us)              - capture  - RCN-210 : compliant
-08:54:12 : Test 17 - Preamble [12...24]                       - parser   - RCN-211 : compliant
-08:54:21 : Test 18 - Invalid xor                              - parser   - RCN-211 : compliant
-08:54:31 : Test 19 - Extra byte (before xor)                  - parser   - RCN-211 : compliant
-08:54:41 : Test 20 - Extra byte (after xor)                   - parser   - RCN-211 : compliant
-08:54:51 : Test 21 - Missing parameter                        - parser   - RCN-211 : compliant
-08:55:01 : Test 22 - Checking back-to-back support            - parser   - RCN-211 : compliant
-08:55:10 : Test 23 - Min cutout [32-454us]                    - railcom  - RCN-217 : compliant
-08:55:20 : Test 24 - Max cutout [26-488us]                    - railcom  - RCN-217 : compliant
-08:55:30 : Test 25 - Cutout on/off                            - railcom  - RCN-217 : compliant
-08:55:40 : Test 26 - Checking speed 28 support                - command  - RCN-212 : compliant
-08:55:50 : Test 27 - Checking speed 128 support               - command  - RCN-212 : compliant
-08:55:59 : Test 28 - Checking F0-F4 support                   - command  - RCN-212 : compliant
-08:56:09 : Test 29 - Checking F5-F8 support                   - command  - RCN-212 : compliant
-08:56:19 : Test 30 - Checking F9-F12 support                  - command  - RCN-212 : compliant
-08:56:29 : Test 31 - Checking F13-F20 support                 - command  - RCN-212 : compliant
-08:56:39 : Test 32 - Checking F21-F28 support                 - command  - RCN-212 : compliant
-08:56:49 : Test 33 - Checking F29-F36 support                 - command  - RCN-212 : compliant
-08:56:58 : Test 34 - Checking F37-F44 support                 - command  - RCN-212 : compliant
-08:57:08 : Test 35 - Checking F45-F52 support                 - command  - RCN-212 : compliant
-08:57:18 : Test 36 - Checking F53-F60 support                 - command  - RCN-212 : compliant
-08:57:28 : Test 37 - Checking F61-F68 support                 - command  - RCN-212 : compliant
-08:57:38 : Test 38 - Checking bin short support               - command  - RCN-212 : no support
-08:57:47 : Test 39 - Checking bin long support                - command  - RCN-212 : no support
-08:57:57 : Test 40 - Checking SDF(1f) support                 - command  - RCN-212 : compliant
-08:58:07 : Test 41 - Checking SDF(2f) support                 - command  - RCN-212 : compliant
-08:58:17 : Test 42 - Checking SDF(3f) support                 - command  - RCN-212 : compliant
-08:58:27 : Test 43 - Checking SDF(4f) support                 - command  - RCN-212 : compliant
-08:58:36 : Test 44 - Checking ack support                     - command  - RCN-212 : compliant
-08:58:46 : Test 45 - Checking consist support                 - command  - RCN-212 : compliant
-08:58:56 : Test 46 - Checking analog support                  - command  - RCN-212 : no support
-08:59:06 : Test 47 - Checking special op support              - command  - RCN-212 : compliant
-08:59:16 : Test 48 - Checking pom 1x read support             - command  - RCN-214 : compliant
-08:59:25 : Test 49 - Checking pom 2x read support             - command  - RCN-214 : compliant
-08:59:35 : Test 50 - Checking xpom 1x read support            - command  - RCN-214 : compliant
-08:59:45 : Test 51 - Checking xpom 2x read support            - command  - RCN-214 : compliant
-08:59:55 : Test 52 - Checking pom reserved                    - command  - RCN-214 : compliant
-09:00:05 : Test 53 - Checking DCC-A compatibility             - dcca     - RCN-218 : compliant
-09:00:14 : Test 54 - Checking DCC-A logon(now) support        - dcca     - RCN-218 : compliant
-09:00:24 : Test 55 - Checking DCC-A logon(all) support        - dcca     - RCN-218 : compliant
-09:00:34 : Test 56 - Checking DCC-A logon(accessory) support  - dcca     - RCN-218 : no support
-09:00:44 : Test 57 - Checking DCC-A logon(loco) support       - dcca     - RCN-218 : compliant
+06:51:17 : Test  1 - Cold boot time (off=10s)                 - electric - RCN-530 : reference
+06:51:18 : Test  2 - Warm boot time (off=250ms)               - electric - RCN-530 : reference
+06:51:20 : Test  3 - Hot boot time (off=75ms)                 - electric - RCN-530 : reference
+06:51:30 : Test  4 - Decoder ignite voltage (2V to 15V)       - electric - RCN-210 : reference
+06:51:40 : Test  5 - Track voltage (15V down to 8V)           - electric - RCN-210 : compliant
+06:51:51 : Test  6 - H-Bridge dead time (0..2500ns)           - electric - RCN-210 : compliant
+06:52:00 : Test  7 - Multiprotocol                            - electric - RCN-210 : compliant
+06:52:10 : Test  8 - DCC polarity toggling (33%)              - capture  - RCN-210 : compliant
+06:52:20 : Test  9 - Min bit-0 timing (92us)                  - capture  - RCN-210 : compliant
+06:52:30 : Test 10 - Max bit-0 timing (116us)                 - capture  - RCN-210 : compliant
+06:52:40 : Test 11 - Below min bit-0 timing (88us)            - capture  - RCN-210 : compliant
+06:52:49 : Test 12 - Asym bit-0 timing (112|88us)             - capture  - RCN-210 : compliant
+06:52:59 : Test 13 - Min bit-1 timing (54us)                  - capture  - RCN-210 : compliant
+06:53:09 : Test 14 - Max bit-1 timing (62us)                  - capture  - RCN-210 : compliant
+06:53:19 : Test 15 - Below min bit-1 timing (50us)            - capture  - RCN-210 : compliant
+06:53:29 : Test 16 - Above max bit-1 timing (66us)            - capture  - RCN-210 : compliant
+06:53:38 : Test 17 - Asym bit-1 timing (50|66us)              - capture  - RCN-210 : compliant
+06:53:49 : Test 18 - Preamble [12...24]                       - parser   - RCN-211 : compliant
+06:53:59 : Test 19 - Invalid xor                              - parser   - RCN-211 : compliant
+06:54:08 : Test 20 - Extra byte (before xor)                  - parser   - RCN-211 : compliant
+06:54:18 : Test 21 - Extra byte (after xor)                   - parser   - RCN-211 : compliant
+06:54:28 : Test 22 - Missing parameter                        - parser   - RCN-211 : compliant
+06:54:38 : Test 23 - Checking back-to-back support            - parser   - RCN-211 : compliant
+06:54:48 : Test 24 - Min cutout [32-454us]                    - railcom  - RCN-217 : compliant
+06:54:57 : Test 25 - Max cutout [26-488us]                    - railcom  - RCN-217 : compliant
+06:55:07 : Test 26 - Cutout on/off                            - railcom  - RCN-217 : compliant
+06:55:17 : Test 27 - Checking speed 28 support                - command  - RCN-212 : compliant
+06:55:27 : Test 28 - Checking speed 128 support               - command  - RCN-212 : compliant
+06:55:37 : Test 29 - Checking F0-F4 support                   - command  - RCN-212 : compliant
+06:55:46 : Test 30 - Checking F5-F8 support                   - command  - RCN-212 : compliant
+06:55:56 : Test 31 - Checking F9-F12 support                  - command  - RCN-212 : compliant
+06:56:06 : Test 32 - Checking F13-F20 support                 - command  - RCN-212 : compliant
+06:56:16 : Test 33 - Checking F21-F28 support                 - command  - RCN-212 : compliant
+06:56:26 : Test 34 - Checking F29-F36 support                 - command  - RCN-212 : compliant
+06:56:35 : Test 35 - Checking F37-F44 support                 - command  - RCN-212 : compliant
+06:56:45 : Test 36 - Checking F45-F52 support                 - command  - RCN-212 : compliant
+06:56:55 : Test 37 - Checking F53-F60 support                 - command  - RCN-212 : compliant
+06:57:05 : Test 38 - Checking F61-F68 support                 - command  - RCN-212 : compliant
+06:57:15 : Test 39 - Checking bin short support               - command  - RCN-212 : no support
+06:57:25 : Test 40 - Checking bin long support                - command  - RCN-212 : no support
+06:57:34 : Test 41 - Checking SDF(1f) support                 - command  - RCN-212 : compliant
+06:57:44 : Test 42 - Checking SDF(2f) support                 - command  - RCN-212 : compliant
+06:57:54 : Test 43 - Checking SDF(3f) support                 - command  - RCN-212 : compliant
+06:58:04 : Test 44 - Checking SDF(4f) support                 - command  - RCN-212 : compliant
+06:58:14 : Test 45 - Checking ack support                     - command  - RCN-212 : compliant
+06:58:23 : Test 46 - Checking consist support                 - command  - RCN-212 : compliant
+06:58:33 : Test 47 - Checking analog support                  - command  - RCN-212 : no support
+06:58:43 : Test 48 - Checking special op support              - command  - RCN-212 : compliant
+06:58:53 : Test 49 - Checking pom 1x read support             - command  - RCN-214 : compliant
+06:59:03 : Test 50 - Checking pom 2x read support             - command  - RCN-214 : compliant
+06:59:12 : Test 51 - Checking xpom 1x read support            - command  - RCN-214 : compliant
+06:59:22 : Test 52 - Checking xpom 2x read support            - command  - RCN-214 : compliant
+06:59:32 : Test 53 - Checking pom reserved                    - command  - RCN-214 : compliant
+06:59:42 : Test 54 - Checking DCC-A compatibility             - dcca     - RCN-218 : compliant
+06:59:52 : Test 55 - Checking DCC-A logon(now) support        - dcca     - RCN-218 : compliant
+07:00:02 : Test 56 - Checking DCC-A logon(all) support        - dcca     - RCN-218 : compliant
+07:00:11 : Test 57 - Checking DCC-A logon(accessory) support  - dcca     - RCN-218 : no support
+07:00:21 : Test 58 - Checking DCC-A logon(loco) support       - dcca     - RCN-218 : compliant
