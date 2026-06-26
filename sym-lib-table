@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name RTB)(type Legacy)(uri ${KIPRJMOD}/../SamacSys/SamacSys_Parts.lib)(options "")(descr ""))
+	(version 7)
+	(lib (name "RTB") (type "Legacy") (uri "${KIPRJMOD}/../SamacSys/SamacSys_Parts.lib") (options "") (descr ""))
+	(lib (name "D21-cache") (type "Legacy") (uri "C:/RnD/NMRA/_KiCad/D21/D21-cache.lib") (options "") (descr "Legacy project cache library"))
 )
