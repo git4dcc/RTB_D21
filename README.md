@@ -68,7 +68,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Refl
 - Connector: Next18 (NEM-662)
 
 ## Kicad
-[Schematic](doc/D21_schematic.pdf) | [Layout](doc/D21_layout.pdf) | [Gerber](gerber)
+[Schematic](doc/D21_schematic.pdf) | [Layout](doc/D21_layout.pdf) | [Gerber](production)
 
 <details>
 <summary>Dependency</summary>
