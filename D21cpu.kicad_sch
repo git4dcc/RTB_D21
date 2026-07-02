@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D21 Next18 Decoder")
-		(date "2026-06-14")
-		(rev "0")
+		(date "2026-07-02")
+		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Double sided Next18")
-		(comment 2 "D21.0")
+		(comment 2 "D21.1")
 		(comment 4 "Licensed under the Apache License, Version 2")
 	)
 	(lib_symbols
@@ -4055,8 +4055,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 76.581 37.5158 90)
+		(property "Value" "VDD"
+			(at 76.2 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4089,6 +4089,7 @@
 		)
 		(property "Description" ""
 			(at 76.2 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.377 47.7012 90)
+			(at 224.028 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,8 +4651,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 71.12 111.76 90)
+		(property "Value" "VDD"
+			(at 71.12 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,8 +4903,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 104.14 80.01 90)
+		(property "Value" "VDD"
+			(at 103.124 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,6 +4937,7 @@
 		)
 		(property "Description" ""
 			(at 97.79 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5011,6 +5013,7 @@
 		)
 		(property "Description" "AXK6F16347YG"
 			(at 203.2 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5115,7 +5118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RTB:DummyNet-Connector"
+		(property "Footprint" "RTB:Solder 0.8 x 0.5"
 			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5139,6 +5142,7 @@
 		)
 		(property "Description" ""
 			(at 204.47 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5192,7 +5196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RTB:DummyNet-Connector"
+		(property "Footprint" "RTB:Solder 0.8 x 0.5"
 			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5216,6 +5220,7 @@
 		)
 		(property "Description" ""
 			(at 204.47 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5651,7 +5656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RTB:DummyNet-Connector"
+		(property "Footprint" "RTB:Solder 0.8 x 0.5"
 			(at 204.47 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5675,6 +5680,7 @@
 		)
 		(property "Description" ""
 			(at 204.47 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5717,8 +5723,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 194.9958 132.969 90)
+		(property "Value" "VDD"
+			(at 194.31 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5751,6 +5757,7 @@
 		)
 		(property "Description" ""
 			(at 199.39 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5885,8 +5892,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 83.82 127 90)
+		(property "Value" "VDD"
+			(at 83.312 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5919,6 +5926,7 @@
 		)
 		(property "Description" ""
 			(at 77.47 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6053,8 +6061,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 83.82 138.43 90)
+		(property "Value" "VDD"
+			(at 83.312 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6087,6 +6095,7 @@
 		)
 		(property "Description" ""
 			(at 77.47 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

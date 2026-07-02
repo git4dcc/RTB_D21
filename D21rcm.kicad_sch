@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D21 Next18 Decoder")
-		(date "2026-06-14")
-		(rev "0")
+		(date "2026-07-02")
+		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Double sided Next18")
-		(comment 2 "D21.0")
+		(comment 2 "D21.1")
 		(comment 4 "Licensed under the Apache License, Version 2")
 	)
 	(lib_symbols
@@ -2487,7 +2487,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VDD"
 			(at 84.201 28.6258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2521,6 +2521,7 @@
 		)
 		(property "Description" ""
 			(at 83.82 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
