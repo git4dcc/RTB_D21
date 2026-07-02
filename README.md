@@ -48,8 +48,8 @@ My Homebrew [D21](https://rtb4dcc.de/hardware/decoder/d21/) decoder is a double 
 - over temp protection
 - Function output: LF/LR (dimmable, 1.4kHz) open drain
 - Function output: AUX1/AUX2 (dimmable, 1.4kHz) open drain
-- Function output: AUX3/AUX4 logic level (3.3V) or ZBCLK/ZBDAT
-- Function output: AUX5/AUX6 logic level (3.3V)
+- Function output: AUX3/AUX4 logic level or ZBCLK/ZBDAT
+- Function output: AUX5/AUX6 logic level
 - optional external buffer capacitor (max. 1500uF)
 - <10mA idle power consumption
 - SUSI3 (logic level)
