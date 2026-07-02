@@ -48,11 +48,11 @@ My Homebrew [D21](https://rtb4dcc.de/hardware/decoder/d21/) decoder is a double 
 - over temp protection
 - Function output: LF/LR (dimmable, 1.4kHz) open drain
 - Function output: AUX1/AUX2 (dimmable, 1.4kHz) open drain
-- Function output: AUX3/AUX4 logic level (3.3V) or ZBCLK/ZBDAT (3.3V)
+- Function output: AUX3/AUX4 logic level (3.3V) or ZBCLK/ZBDAT
 - Function output: AUX5/AUX6 logic level (3.3V)
 - optional external buffer capacitor (max. 1500uF)
 - <10mA idle power consumption
-- SUSI3 (3.3V logic level)
+- SUSI3 (logic level)
 - Firmware update over main tracks via DCC-R protocol
 
 
@@ -63,6 +63,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Refl
 
 ## PCB
 - 6-layer PCB, FR4, 15 x 9.5 x 0.8mm (double sided)
+- Power: 3.3V or 5V
 - CPU: AVR64DD28
 - Motor bridge: DRV8231
 - Connector: Next18 (NEM-662)
