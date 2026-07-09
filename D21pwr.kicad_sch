@@ -4439,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP730BMT500TBG"
+		(property "Value" "NCP730BMT330TBG"
 			(at 177.8 33.6804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +4473,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "LDO Regulator Pos 3.3V 0.15A 6-Pin WDFN EP T/R"
+		(property "Description" "-40℃~+125℃@(Tj) 1 1.8uA 150mA 195uVrms 3.3V 38V 480mV@(150mA) 80dB@(10Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Enable WDFN-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4485,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part #" "C892822"
+		(property "LCSC Part #" "C892821"
 			(at 195.58 38.1 0)
 			(hide yes)
 			(show_name no)
